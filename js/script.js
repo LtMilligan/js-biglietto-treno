@@ -26,4 +26,6 @@ let generateTicketPrice = () => {
     else if (eta > 65) {
         percDiscount = 0.4;
     }
+    // DICHIARO UNA COSTANTE PER CALCOLARE IL PREZZO PIENO DEL BIGLIETTO
+    const priceFullTicket = distanceKm * 0.21;
 }
