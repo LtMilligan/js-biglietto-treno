@@ -3,3 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.c-green {
+    color: rgb(0, 175, 44);
+}
+
+body {
+    height: 100svh;
+    background-image: url(../img/station_pixel_art.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-grey-50 {
+    background-color: rgba(128, 128, 128, 0.5);
+}
+
+.bg-gery-80 {
+    background-color: rgba(128, 128, 128, 0.8);
+}

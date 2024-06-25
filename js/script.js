@@ -31,5 +31,5 @@ let generateTicketPrice = () => {
     // DICHIARO UNA COSTANTE PER CALCOLARE IL PREZZO CON EVENTUALE SCONTO
     const finalPrice = priceFullTicket - (priceFullTicket * percDiscount)
     // FACCIO L'INNERHTML DEL PREZZO FINALE
-    document.getElementById('pass-gen').innerHTML = finalPrice;
+    document.getElementById('pass-gen').innerHTML = finalPrice.toFixed(2) + '&euro;';
 }
