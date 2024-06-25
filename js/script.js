@@ -18,4 +18,12 @@ let generateTicketPrice = () => {
     // DICHIARO UNA COSTANTE PER RICHIEDERE L'ETA DEL PASSEGGERO
     const eta = askPrompt('Inserisci la tua età');
     if (!eta) return false;
+    // DICHIARO VARIABILE CONTO CON RELATIVO CALCOLO PER MODIFICA IN BASE A ETA
+    let percDiscount = 0;
+    if (eta < 18) {
+        percDiscount = 0.2;
+    }
+    else if (eta > 65) {
+        percDiscount = 0.4;
+    }
 }
