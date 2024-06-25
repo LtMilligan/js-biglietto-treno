@@ -8,3 +8,9 @@ let askPrompt = (message) => {
     }
     return data;
 };
+
+// FACCIO UNA FUNZIONE PER GENERARE IL PREZZO DEL BIGLIETTO DA AGGIUNGERE ALL'EVENTO ONCLICK
+
+let generateTicketPrice = () => {
+
+}
