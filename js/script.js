@@ -30,4 +30,6 @@ let generateTicketPrice = () => {
     const priceFullTicket = distanceKm * 0.21;
     // DICHIARO UNA COSTANTE PER CALCOLARE IL PREZZO CON EVENTUALE SCONTO
     const finalPrice = priceFullTicket - (priceFullTicket * percDiscount)
+    // FACCIO L'INNERHTML DEL PREZZO FINALE
+    document.getElementById('pass-gen').innerHTML = finalPrice;
 }
