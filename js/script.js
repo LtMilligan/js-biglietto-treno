@@ -28,4 +28,6 @@ let generateTicketPrice = () => {
     }
     // DICHIARO UNA COSTANTE PER CALCOLARE IL PREZZO PIENO DEL BIGLIETTO
     const priceFullTicket = distanceKm * 0.21;
+    // DICHIARO UNA COSTANTE PER CALCOLARE IL PREZZO CON EVENTUALE SCONTO
+    const finalPrice = priceFullTicket - (priceFullTicket * percDiscount)
 }
