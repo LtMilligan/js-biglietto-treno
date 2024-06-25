@@ -12,5 +12,7 @@ let askPrompt = (message) => {
 // FACCIO UNA FUNZIONE PER GENERARE IL PREZZO DEL BIGLIETTO DA AGGIUNGERE ALL'EVENTO ONCLICK
 
 let generateTicketPrice = () => {
-
+    // DICHIARO UNA COSTANTE PER RICHIEDERE I KM DA PERCORRERE
+    const distanceKm = askPrompt('Inserisci il numero di Km da percorrere');
+    if (!distanceKm) return false;
 }
