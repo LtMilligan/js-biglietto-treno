@@ -15,4 +15,7 @@ let generateTicketPrice = () => {
     // DICHIARO UNA COSTANTE PER RICHIEDERE I KM DA PERCORRERE
     const distanceKm = askPrompt('Inserisci il numero di Km da percorrere');
     if (!distanceKm) return false;
+    // DICHIARO UNA COSTANTE PER RICHIEDERE L'ETA DEL PASSEGGERO
+    const eta = askPrompt('Inserisci la tua età');
+    if (!eta) return false;
 }
